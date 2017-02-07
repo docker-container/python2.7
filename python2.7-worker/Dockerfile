@@ -7,7 +7,7 @@ RUN pip install beautifulsoup4
 RUN pip install pandas
 RUN pip install MySQL-python
 RUN pip install peewee
-
+RUN pip install pika
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY . /usr/src/app
